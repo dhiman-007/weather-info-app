@@ -7,6 +7,8 @@ const search = document.querySelector('input')
 
 const messageOne =  document.querySelector('#one')
 const messageTwo = document.querySelector('#two')
+const messageThree = document.querySelector('three')
+const btn = document.querySelector('#btn');
 
 
 
@@ -22,8 +24,7 @@ weatherForm.addEventListener('submit', (e)=>{
         }else{
           messageOne.textContent = data.location
           messageTwo.textContent = data.forecast
-          search.value = "";
-        }
+          search.value = "";}
 
     })
 })
