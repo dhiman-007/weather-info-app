@@ -4,21 +4,25 @@ body {
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
-
+    background-image: url('/img/bg.jpg');
     display: flex;
     flex-direction: column;
     min-height: 100vh
+
 }
 
 .main-content {
     flex-grow: 1;
+    margin : 0 auto;
+    height: auto;
 }
 
 footer {
     color: #888888;
-    border-top: 1px solid #eeeeee;
-    margin-top: 16px;
+    border-top: 1px solid black;
+    margin-top: 10px;
     padding: 16px 0;
+    margin : 0 auto
 }
 
 header {
@@ -34,7 +38,7 @@ h1 {
 header a {
     color: #888888;
     margin-right: 16px;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .portrait {
@@ -42,7 +46,7 @@ header a {
 }
 
 input{
-    border: 1px solid #cccccc;
+    border: 1px solid black;
     padding: 8px;
 }
 
@@ -50,5 +54,14 @@ input{
     background-color: #888888;
     color: white;
     padding: 8px;
+    margin-left: 60px;
     cursor: pointer;
+    border: 1px solid black
+
+}
+
+#btn:hover{
+    color: black;
+    background-color: white;
+    font-size: 15px;
 }
